@@ -18,15 +18,22 @@ You want to take at least one of each item with you, and use any remaining capac
 least number of items as possible, while still using all capacity.
 For example, with a bag capacity of 27, you will want to have the following items:
 
-4 Bags of Apples
-1 Trail Mix
-1 Peanut Butter
-2 Bread
+- 4 Bags of Apples
+
+- 1 Trail Mix
+
+- 1 Peanut Butter
+
+- 2 Bread
 
 4x5 = 20
+
 1x3 = 3
+
 1x2 = 2
+
 2x1 = 2
+
 27 total capacity
 
 Build a program that takes in a bag capacity and determines which items to put in your pack.
