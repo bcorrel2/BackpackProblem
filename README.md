@@ -1,7 +1,40 @@
-# PowerReviews Backend Code Test
+# Backpack Coding Problem
 
-I am excited to have the opportunity to interview for 1World and the PowerReviews team! Enclosed you will find my 
-solution to the Backpack Problem. In this README, I will give you a brief overview of the project structure.
+## Problem Statement
+
+You are going on a hiking trip! It’s time to pack!
+Your backpack has a safe maximum weight capacity and you want to utilize all of its capacity.
+You have an assortment of different items you can pack. Assume you have an unlimited
+number of each item. The items you are considering packing weigh:
+
+```
+“itemsAvailable”:[ {“name” : “Bag of Apples”, “weight” : 5},
+{“name” : “Bread”, “weight”: 1 },
+{“name” : “Peanut Butter”, “weight”: 2},
+{“name” : “Trail Mix”, “weight”: 3}]
+```
+
+You want to take at least one of each item with you, and use any remaining capacity to fit the
+least number of items as possible, while still using all capacity.
+For example, with a bag capacity of 27, you will want to have the following items:
+
+4 Bags of Apples
+1 Trail Mix
+1 Peanut Butter
+2 Bread
+
+4x5 = 20
+1x3 = 3
+1x2 = 2
+2x1 = 2
+27 total capacity
+
+Build a program that takes in a bag capacity and determines which items to put in your pack.
+Output your backpack contents.
+
+## Solution
+
+I will briefly detail the structure of my solution.
 
 ### Backpack.java
 This file is the model object of the project and represents the concept of a backpack in the code. For this solution,
